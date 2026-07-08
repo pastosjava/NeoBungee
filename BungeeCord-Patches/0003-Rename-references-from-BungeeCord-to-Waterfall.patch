@@ -35,7 +35,7 @@ index 23f22da8..3a1f7174 100644
      public String getName()
      {
 -        return "BungeeCord";
-+        return "Waterfall";
++        return "NeoBungee";
      }
  
      @Override
