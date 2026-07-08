@@ -12,7 +12,7 @@ index 4e27f6d6..c7d13591 100644
          BungeeCord bungee = new BungeeCord();
          ProxyServer.setInstance( bungee );
          bungee.getLogger().info( "Enabled Waterfall version " + bungee.getVersion() );
-+        bungee.getLogger().warning("Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/)."); // Waterfall - eol message
++        bungee.getLogger().warning("Waterfall has reached end of life and is no longer maintained. We dont recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/)."); // Waterfall - eol message
          bungee.start();
  
          if ( !options.has( "noconsole" ) )
