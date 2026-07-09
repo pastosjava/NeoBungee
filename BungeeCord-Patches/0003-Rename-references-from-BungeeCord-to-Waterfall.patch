@@ -57,7 +57,7 @@ index 6fbfc9d4..6615ad36 100644
          BungeeCord bungee = new BungeeCord();
          ProxyServer.setInstance( bungee );
 -        bungee.getLogger().info( "Enabled BungeeCord version " + bungee.getVersion() );
-+        bungee.getLogger().info( "Enabled Waterfall version " + bungee.getVersion() );
++        bungee.getLogger().info( "hi from the dev team :D something didnt go as expected - loaded neo version " + bungee.getVersion() );
          bungee.start();
  
          if ( !options.has( "noconsole" ) )
