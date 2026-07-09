@@ -48,10 +48,10 @@ index 6fbfc9d4..6615ad36 100644
              {
                  System.err.println( "*** Warning, this build is outdated ***" );
 -                System.err.println( "*** Please download a new build from https://www.spigotmc.org/go/bungeecord-dl ***" );
-+                System.err.println( "*** Please download a new build from https://papermc.io/downloads ***" );
++                System.err.println( "*** Please download a new build from https://lightningj.vercel.app/neobungee.html ***" );
                  System.err.println( "*** You will get NO support regarding this build ***" );
-                 System.err.println( "*** Server will start in 10 seconds ***" );
-                 Thread.sleep( TimeUnit.SECONDS.toMillis( 10 ) );
+                 System.err.println( "*** Server will start in 1 seconds ***" );
+                 Thread.sleep( TimeUnit.SECONDS.toMillis( 1 ) );
 @@ -65,7 +65,7 @@ public class BungeeCordLauncher
  
          BungeeCord bungee = new BungeeCord();
